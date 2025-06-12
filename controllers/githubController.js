@@ -1,5 +1,5 @@
 const DeploymentModel = require('../models/deploymentModel');
-const DiscordService = require('../services/discordService');
+const DiscordService = require('../services/discordServices');
 
 exports.handleWebhook = async (req, res) => {
   try {
