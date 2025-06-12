@@ -1,0 +1,16 @@
+{
+  "name": "git-deploy-mvc",
+  "version": "1.0.0",
+  "description": "Git deployment application",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
